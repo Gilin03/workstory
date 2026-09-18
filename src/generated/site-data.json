@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-09-17",
+  "sourceFiles": [
+    "inputs/attendance.json",
+    "inputs/ritual-history.json",
+    "inputs/submissions.json"
+  ],
+  "metrics": [
+    {
+      "id": "attendance-absence",
+      "label": "결석",
+      "value": 0,
+      "displayValue": "0일",
+      "detail": "확정 출석 26/27일 · 오늘 확정 전 1일",
+      "source": "내 출석 기록",
+      "evidence": "inputs/attendance.json · summary.absentDays",
+      "asOf": "2026-09-17"
+    },
+    {
+      "id": "attendance-confirmed",
+      "label": "확정 출석",
+      "value": 26,
+      "displayValue": "26/27일",
+      "detail": "확정 출석 26/27일 · 오늘 확정 전 1일",
+      "source": "내 출석 기록",
+      "evidence": "inputs/attendance.json · summary.attendedDays/trainingDays",
+      "asOf": "2026-09-17"
+    },
+    {
+      "id": "ritual-close-days",
+      "label": "마감 기록",
+      "value": 25,
+      "displayValue": "25회",
+      "source": "리추얼 기록",
+      "evidence": "inputs/ritual-history.json · days[].close"
+    },
+    {
+      "id": "ritual-open-days",
+      "label": "기록을 연 날",
+      "value": 26,
+      "displayValue": "26일",
+      "source": "리추얼 기록",
+      "evidence": "inputs/ritual-history.json · days[].open"
+    },
+    {
+      "id": "ritual-successes",
+      "label": "실천했다고 남긴 날",
+      "value": 23,
+      "displayValue": "23회",
+      "source": "리추얼 기록",
+      "evidence": "inputs/ritual-history.json · close의 ‘강점 행동: 실천했다’"
+    },
+    {
+      "id": "submission-rate",
+      "label": "과제 제출 현황",
+      "value": 100,
+      "displayValue": "11/11개",
+      "detail": "제출 완료 11/11개 · 100%",
+      "source": "내 제출 현황",
+      "evidence": "inputs/submissions.json · assignments[].submitted/status",
+      "asOf": "2026-09-18"
+    }
+  ],
+  "missingSources": [],
+  "latestEvidence": {
+    "date": "2026-09-17",
+    "source": "리추얼 기록",
+    "field": "강점이 드러난 일화",
+    "excerpt": "과제를 하다가 오류가 생겼을 때 바로 포기하지 않고 원인을 하나씩 확인하면서 끝까지 해결하려고 했다."
+  }
+}

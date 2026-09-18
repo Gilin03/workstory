@@ -1,0 +1,12 @@
+{
+  "source": "내 출석 기록",
+  "asOf": "2026-09-17",
+  "summary": {
+    "trainingDays": 27,
+    "enrolledDays": 27,
+    "attendedDays": 26,
+    "absentDays": 0,
+    "pendingDays": 1
+  },
+  "note": "2026-09-17 출석 화면에서 옮긴 값. 9/17은 오늘·확정 전으로 표시되어 확정 출석 26일에 포함하지 않았다."
+}

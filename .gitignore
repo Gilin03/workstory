@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.npm-cache/
+.vercel/
+*.tmp
+.agents/
+AGENTS.md
+START_PROMPT.md
+install-skills.ps1
+skills-lock.json
+ritual-history-2026-09-17.json

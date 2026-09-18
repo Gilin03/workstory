@@ -1,0 +1,18 @@
+{
+  "source": "내 제출 현황",
+  "asOf": "2026-09-18",
+  "note": "과제 12 진행 중이며 1번부터 11번까지 제출 완료.",
+  "assignments": [
+    { "id": "01", "submitted": true, "status": "제출" },
+    { "id": "02", "submitted": true, "status": "제출" },
+    { "id": "03", "submitted": true, "status": "제출" },
+    { "id": "04", "submitted": true, "status": "제출" },
+    { "id": "05", "submitted": true, "status": "제출" },
+    { "id": "06", "submitted": true, "status": "제출" },
+    { "id": "07", "submitted": true, "status": "제출" },
+    { "id": "08", "submitted": true, "status": "제출" },
+    { "id": "09", "submitted": true, "status": "제출" },
+    { "id": "10", "submitted": true, "status": "제출" },
+    { "id": "11", "submitted": true, "status": "제출" }
+  ]
+}

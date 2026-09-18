@@ -1,0 +1,22 @@
+{
+  "name": "taebin-profile-site",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "generate": "node scripts/generate.mjs --input inputs --output src/generated",
+    "test:generator": "node --test scripts/generate.test.mjs",
+    "check:content": "node scripts/content-check.mjs",
+    "check:privacy": "node scripts/privacy-check.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {}
+}
