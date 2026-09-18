@@ -13,6 +13,8 @@
   ·
   <a href="checklist.md">제출 체크리스트</a>
   ·
+  <a href="https://github.com/Gilin03/workstory">Repository</a>
+  ·
   <a href="public/assets/login-defense-study-paper.pdf">10번 논문 PDF</a>
 </p>
 
